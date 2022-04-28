@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:background="@color/purple_500"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        app:cardBackgroundColor="#B8C7AB"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:textSize="17dp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:background="@null"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:layout_margin="5dp"
+            android:id="@+id/cancele"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="CANCELE"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+        <Button
+            android:backgroundTint="@color/black"
+            android:layout_margin="5dp"
+            android:id="@+id/delete"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
